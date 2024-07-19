@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(210, 216, 221);
+}
+body {
+  background-color: black;
+  height: 100vh;
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  background-color: rgb(50, 56, 53);
+  /* background-color: rgb(60, 85, 73); */
+  height: 95%;
+  width: 97%;
+  /* margin: 2em; */
+  /* position: absolute; */
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+/* 
+. 
+. 
+. 
+. 
+. 
+profile-area  starts here
+. 
+. 
+. 
+.  
+*/
+.profile-area {
+  background-color: rgb(59, 92, 92);
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  margin: 2em 0;
+}
+.profile .name {
+  margin: 0.3em auto;
+}
+.profile .profile-pic {
+  width: 15em;
+  margin: 0 auto;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.profile .bio {
+  text-align: center;
+  padding: 0.6em;
+}
+
+/* 
+. 
+. 
+. 
+. 
+. 
+profile-area  ends here
+. 
+. 
+. 
+.  
+*/
+/* 
+. 
+. 
+. 
+.  
+. 
+Social meida  starts here
+. 
+. 
+. 
+.  
+*/
+.social-media {
+  /* background-color: #fff; */
+  display: flex;
+  justify-content: center;
+}
+.social-media .social {
+  background-color: aqua;
+  color: rgb(68, 68, 68);
+  height: 2.6em;
+  width: 2.6em;
+  margin: 0.3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30%;
+  font-weight: 900;
+  cursor: pointer;
+}
+.social-media .social:hover {
+  background-color: rgb(0, 196, 196);
+}
+/* 
+. 
+. 
+. 
+. 
+. 
+Social meida  ends here
+. 
+. 
+. 
+.  
+*/
+/* 
+. 
+. 
+. 
+. 
+. 
+More  starts here
+. 
+. 
+. 
+.  
+*/
+.more {
+  /* background-color: rgb(95, 95, 94); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+}
+.more ul {
+}
+.more ul li {
+  list-style: none;
+  /* margin: 0.1em; */
+  padding: 0.6em 0.3em;
+  border-radius: 0.5em;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+li:hover {
+  border: 1px solid rgb(50, 56, 53);
+}
+/* 
+. 
+. 
+. 
+. 
+. 
+More  ends here
+. 
+. 
+. 
+.  
+*/
+/* 
+. 
+. 
+. 
+. 
+. 
+Hire Me starts here
+. 
+. 
+. 
+.  
+*/
+.hire-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+}
+.hire-me button {
+  color: rgb(68, 68, 68);
+  border: 2px solid rgb(50, 56, 53);
+  padding: 0.3em 0.5em;
+  font-size: 1.2em;
+  font-weight: 600;
+  border-radius: 0.5em;
+  background-color: aqua;
+  cursor: pointer;
+}
+.hire-me button:hover {
+  background-color: rgb(0, 231, 231);
+  padding: 0.4em 0.6em;
+}
+/* 
+. 
+. 
+. 
+. 
+. 
+Hire Me ends here
+. 
+. 
+. 
+.  
+*/

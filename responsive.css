@@ -1,0 +1,36 @@
+@media (max-width: 520px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  .profile {
+    margin: 0 0;
+  }
+  .profile .profile-pic {
+    width: 12em;
+  }
+  .more {
+    width: 100%;
+    display: block;
+    height: 90px;
+  }
+  .more ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .dark-mode {
+    display: block;
+    top: 0em;
+    left: 0em;
+    z-index: 1;
+    position: fixed;
+  }
+
+  .dark-mode h3 {
+    visibility: hidden;
+  }
+  .dark-mode input {
+    font-size: 3em;
+  }
+}

@@ -36,6 +36,7 @@ profile-area  starts here
 */
 .profile-area {
   background-color: rgb(59, 92, 92);
+  border-radius: 1em 0 0 0;
 }
 .profile {
   display: flex;
@@ -221,6 +222,7 @@ description-container starts here
 .description-container {
   background-color: rgb(112, 112, 112);
   padding: 2em 8em;
+  border-radius: 0 1em 0 0;
 }
 .description-area {
   background-color: rgb(99, 88, 88);
